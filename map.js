@@ -7,7 +7,7 @@ var doubled = numbers.map(function(num){
 });
 console.log(doubled);
 
-// Skill Drill 12.2.1 ADD 5
+// Skill Drill Practice
 var numbers = [1,2,3,4,5];
 var doubled = numbers.map(function(Jester){
     return Jester + 5;
@@ -44,7 +44,7 @@ var cityNames = cities.map(function(city){
 });
 console.log(cityNames);
 
-// Skill Drill 12.2.1 Population array
+// Skill Drill Practice
 var cities = [
   {
     "Rank": 1,
@@ -88,7 +88,7 @@ var olderThanFive = familyAge.filter(function(age){
 });
 console.log(olderThanFive);
 
-// Skill Drill 12.2.1 Filter by letter s
+// Skill Drill Practice: Filter by letter s
 var words = ['seal', 'dog', 'scorpion', 'orangutan', 'salamander'];
 const filterItems = (letters) => {
     return words.filter(name => name.indexOf(letters) > -1);
@@ -110,7 +110,7 @@ var familyAge = [3,2,39,37,9];
 sortedAge = familyAge.sort((a,b) => b - a);
 console.log(sortedAge);
 
-// Slice Method try different numbers: integers.slice(0,2);
+// Slice Method: try different numbers: integers.slice(0,2);
 var integers = [0,1,2,3,4,5];
 var slice1 = integers.slice(0,4);
 console.log(slice1);
@@ -119,3 +119,14 @@ console.log(slice1);
 var words = ['seal', 'dog', 'scorpion', 'orangutan', 'salamander'];
 var slice1 = words.slice(3, );
 console.log(slice1);
+
+// Map and Filter Method
+var numbers = [1,2,3,4,5];
+
+var doubled = numbers.map(num => num * 2);
+console.log(doubled);
+
+// Map Method
+var familyAge = [3,2,39,37,9];
+var sortedAge = familyAge.sort((a,b) => a - b);
+console.log(sortedAge);
